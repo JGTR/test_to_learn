@@ -1,4 +1,6 @@
 class Todo
+  attr_accessor :title
+  
   def initialize(title)
     @title = title
   end
@@ -6,4 +8,5 @@ class Todo
   def title
     @title
   end
+
 end
